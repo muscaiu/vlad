@@ -5,6 +5,7 @@ import Nav from 'components/Nav';
 import Home from 'components/Home';
 import Caca from 'components/Caca';
 import Edit from 'components/Edit';
+import TwoWayBinding from 'components/TwoWayBinding';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/caca" component={Caca} />
         <Route path="/edit" component={Edit} />
+        <Route path="/two-way-bind" component={TwoWayBinding} />
       </div>
     </Router>
   );

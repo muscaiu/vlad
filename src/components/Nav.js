@@ -11,6 +11,9 @@ function App() {
         <Link to="/caca">Caca</Link>
       </li>
       <li>
+        <Link to="/two-way-bind">TwoWayBinding</Link>
+      </li>
+      <li>
         <Link to="/edit">Edit</Link>
       </li>
     </ul>
